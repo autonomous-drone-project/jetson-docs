@@ -4,7 +4,9 @@
 
 Begin the setup installing python 3.8:
 
-`sudo apt-get install python3.8 python3.8-dev python3.8-distutils python3.8-venv`
+```bash
+sudo apt-get install python3.8 python3.8-dev python3.8-distutils python3.8-venv
+```
 
 Now we have 2 Python versions: 3.6 and 3.8. To make sure we a using the right version edit the .bashrc file.
 
@@ -63,7 +65,13 @@ and reboot using
 sudo reboot
 ```
 
-We could just run the bash script using `sh [OpenCV-4-8-0.sh](http://opencv-4-8-0.sh/)` then you wait to compile the OpenCV. Clone this repo and go to the **files** folder.
+We could just run the bash script using:
+
+```bash
+sh OpenCV-4-8-0.sh
+```
+
+Then you wait to compile the OpenCV. Clone this repo and go to the **files** folder.
 
 After the boot open **jtop** to see if the OpenCV version is 4.8.0 and if CUDA is activated.
 
